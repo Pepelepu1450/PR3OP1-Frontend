@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+}
+.container{
+    display: grid;
+    grid-template-columns:  336px 900px 300px;
+    grid-template-rows: 761.5px;
+}
+#left{
+    background-color:  #1c2833 ;
+    list-style: none;
+}
+#center{
+    background-color: #f2f3f4;
+}
+#right{
+    background-color:  #1c2833 ;
+}
+
+
+
+.list{
+    list-style: none;
+
+}
+.icons{
+    margin: 10px;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.middle{
+    display: grid;
+    grid-template-rows: 60px 701.5px;
+}
+
+
+
+.top{
+    border-top: 2px #1c2833 inset;
+    border-left: 2px #1c2833 inset;
+    border-right: 2px #1c2833 inset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+.button{
+    border: 2px #1c2833 inset;
+    
+}
+.posttear{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#text-input{
+    width: 740px;
+    height: 140px;
+}
+.contact-sumbit-button {
+    background-color: #1c2833;
+    border: 1px solid black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news{
+    display: grid;
+    grid-template-rows: 60px 140px 140px 140px;
+}
+.news-top{
+    border-top: 2px #f2f3f4 inset;
+    border-bottom: 2px #f2f3f4 inset;
+}
+.news-middle{
+    border-bottom: 2px #f2f3f4 inset;
+}
+.news-buttom{
+    border-bottom: 2px #f2f3f4 inset;
+}
+
+.titles{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.resume{
+    color: white;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
